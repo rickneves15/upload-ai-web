@@ -1,27 +1,64 @@
-# React + TypeScript + Vite
+# AI Video Description Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was developed during the NLW Rocketseat programming event. The AI Video Description Generator is a platform that allows users to upload videos and leverage the power of AI to automatically generate titles and descriptions based on the content of the video. Users can also customize the AI's response and fine-tune its creative level to suit their needs.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- TypeScript
+- ReactJS
+- Vite
+- Tailwind CSS
+- Lucid React
+- Radix UI
+- Shadcn/ui
+- Axios
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Upload videos and get AI-generated titles and descriptions.
+- Customize AI responses to match your style and preferences.
+- Fine-tune the creative level of the AI for more control over content generation.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+1. Clone the repository.
+2. Install the required dependencies.
+3. Start the application.
+
+## Installation
+
+Use the following commands to get the project up and running:
+
+1. **Clone the Repository:**
+```bash
+git clone https://github.com/rickneves15/upload-ai-web.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. **Navigate to the project directory**
+```bash
+cd upload-ai-web
+
+npm install
+# OR
+yarn install
+```
+
+3. **Start the application**
+```bash
+npm dev
+# OR
+yarn dev
+```
+
+## Acknowledgments
+* This project was inspired by the NLW Rocketseat event.
+
+## Contact
+If you have any questions or feedback, feel free to reach.
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
+](https://www.linkedin.com/in/richard-neves/)
+[![GitHub](https://img.shields.io/badge/github-0A66C2?style=for-the-badge&logo=github&logoColor=white)
+](https://github.com/rickneves15)
+[![Resume](https://img.shields.io/badge/Resume-0A66C2?style=for-the-badge&logo=git&logoColor=white)
+](https://richard-neves.vercel.app/)
